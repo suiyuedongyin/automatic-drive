@@ -3,17 +3,17 @@
 
 参考资料：
 
-https://github.com/PaddlePaddle/PaddleSeg
+[PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg)
 
 [车道线数据集](https://www.kaggle.com/datasets/thomasfermi/lane-detection-for-carla-driving-simulator)
 
-https://github.com/PaddlePaddle/PaddleDetection
+[PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection)
 
 [清华Tinghua100K交通标志数据集.json标签转.xml（python代码）](https://blog.csdn.net/ning_yi/article/details/107541561)
 
 [TT-100k数据集](https://cg.cs.tsinghua.edu.cn/traffic-sign/)
 
-http://docs.micropython.org/en/latest/
+[Micropython API文档](http://docs.micropython.org/en/latest/)
 
 ## 一、小车驱动部分
 
