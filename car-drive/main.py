@@ -17,18 +17,21 @@ def forward():
 def stop():
     motor_a.duty(1023)
     motor_b.duty(1023)    
-def beepx1():
-    beep.freq(200)
-    beep.duty(1023)
-def beepx2():
-    beep.freq(400)
-    beep.duty(1023)
-def beepx3():
-    beep.freq(600)
-    beep.duty(1023)
-def beepx4():
-    beep.freq(800)
-    beep.duty(1023)  
+def sign1():
+    ledg.value(0)
+    time.sleep(1)
+    ledg.value(1)
+def sign2():
+    ledr.value(0)
+    time.sleep(1)
+    ledr.value(1)
+def sign3():
+    ledg.value(0)
+    ledr.value(0)
+    time.sleep(1)
+    ledg.value(1)
+    ledr.value(1)
+
 
 
 addr = ("192.168.31.96",52052)
@@ -49,12 +52,11 @@ while 1:
         Servo(servo_b,0)
     elif order == "right":
         Servo(servo_b,90)
-    elif order == "beepx1":
-        beepx1()
-    elif order == "beepx2":
-        beepx2()
-    elif order == "beepx3":
-        beepx3()
-    elif order == "beepx4":
-        beepx4()
+    elif order == "sign1":
+        sign1()
+    elif order == "sign2":
+        sign2()
+    elif order == "sign3":
+        sign3()
+
     
