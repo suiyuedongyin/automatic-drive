@@ -112,7 +112,9 @@ python deploy/python/infer.py --model_dir=./model --camera_id 1  --device=GPU
 - --run_benchmark如果设置为True，则需要安装依赖`pip install pynvml psutil GPUtil`。
 - 如果需要使用导出模型在coco数据集上进行评估，请在推理时添加`--save_results`和`--use_coco_category`参数用以保存coco评估所需要的json文件。
 
-分工：
+
+
+**任务分工**：
 
 PaddleSeg车道线检测：刘畅，曹雨辰，毛骏奇
 
