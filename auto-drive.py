@@ -9,6 +9,17 @@ h2 = 175
 w1 = 175
 w2 = 225
 
+new_socket = socket.socket()
+hostname = socket.gethostname()
+ip = socket.gethostbyname(hostname)
+print(ip)
+port = 52052
+print(port)
+new_socket.bind((ip, port))
+print("init")
+new_socket.listen(100)
+new_cil, addr = new_socket.accept()
+print('新进来的客户端的地址:', addr)
 
 cap = cv2.VideoCapture("http://192.168.31.112:81/stream")
 
