@@ -113,8 +113,13 @@ python deploy/python/infer.py --model_dir=./model --camera_id 1  --device=GPU
 - 如果需要使用导出模型在coco数据集上进行评估，请在推理时添加`--save_results`和`--use_coco_category`参数用以保存coco评估所需要的json文件。
 
 分工：
+
 PaddleSeg车道线检测：刘畅，曹雨辰，毛骏奇
+
 PaddleDetection交通标志识别：刘畅，曹雨辰，毛骏奇
+
 小车驱动：刘畅
+
 摄像头调用及图像预测API调用预测：曹雨辰
+
 自动驾驶实现及代码整合：毛骏奇，刘畅，曹雨辰
