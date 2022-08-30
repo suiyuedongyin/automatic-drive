@@ -1,4 +1,8 @@
 # automatic-drive
+小组成员：刘畅，曹雨辰，毛骏奇，鲁彦锴
+参考资料：
+http://docs.micropython.org/en/latest/
+
 ## 一、小车驱动
 
 ### 1.环境配置
