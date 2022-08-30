@@ -3,9 +3,19 @@
 
 参考资料：
 
+https://github.com/PaddlePaddle/PaddleSeg
+
+[车道线数据集](https://www.kaggle.com/datasets/thomasfermi/lane-detection-for-carla-driving-simulator)
+
+https://github.com/PaddlePaddle/PaddleDetection
+
+[清华Tinghua100K交通标志数据集.json标签转.xml（python代码）](https://blog.csdn.net/ning_yi/article/details/107541561)
+
+[TT-100k数据集](https://cg.cs.tsinghua.edu.cn/traffic-sign/)
+
 http://docs.micropython.org/en/latest/
 
-## 一、小车驱动
+## 一、小车驱动部分
 
 ### 1.环境配置
 
@@ -27,7 +37,3 @@ http://docs.micropython.org/en/latest/
 ssid = "ssid"
 password = "password"
 ```
-
-### 3.运行
-
-电脑端运行esp32.py，接着按下小车端RST按键，等待esp32连接至电脑后，即可用键盘控制小车（键盘中的AWSD分别控制左转，前进，后退，右转，JK分别控制调直，停止，Esc键可退出小车驱动）
