@@ -15,6 +15,10 @@
 
 [Micropython API文档](http://docs.micropython.org/en/latest/)
 
+感谢王铭东老师的MicroPython教程：[Python+ESP32 快速上手](https://www.bilibili.com/video/BV1G34y1E7tE)
+
+感谢大佬up的系列视频：[[Esp32-cam][Micropython]教程-4_socket通信](https://www.bilibili.com/video/BV11F411p7BG?spm_id_from=333.337.search-card.all.click&vd_source=66737e91b0eb7b66f76ada0b474cffe8)
+
 ## 一、车道线检测
 
 详见：https://aistudio.baidu.com/aistudio/projectdetail/4366572
